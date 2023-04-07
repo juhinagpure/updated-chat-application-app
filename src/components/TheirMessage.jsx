@@ -9,10 +9,10 @@ const Theirmessage = ({lastmessage,message}) => {
                 style={{backgroundImage:'url(${message?.sender?.avatar})'}}
                 />
             )}
-{message?.attachmnts?.length>0
+{message?.attachments?.length>0
     ?(
         <img
-        src={message.attachmnts[0].file}
+        src={message.attachments[0].file}
         alt="message-attachment"
         className="message-image"
         style={{margin:isFirstmessageByUser ? '4px' : '48px'}}
