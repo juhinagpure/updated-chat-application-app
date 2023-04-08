@@ -1,4 +1,4 @@
-import messageForm from "./messageForm";
+import messageForm from "./MessageForm";
 import Mymessage from "./Mymessage";
 import Theirmessage from "./Theirmessage";
 
